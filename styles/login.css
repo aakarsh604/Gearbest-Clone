@@ -1,0 +1,116 @@
+#top-sec {
+    width: 79%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 45px;
+    width: 200px;
+}
+
+
+.reg-box {
+    font-family: arial;
+    height: 430px;
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 930px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0px 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hed {
+    display: flex;
+    gap: 35px;
+    font-size: 17px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.hed > :nth-child(2) a:hover {
+    cursor: pointer;
+    color: black;
+}
+.hed > :nth-child(1) {
+    height: 50px;
+    cursor: pointer;
+    border-bottom: 4px solid rgb(233, 198, 0);
+}
+
+.hed > :nth-child(2) a {
+ text-decoration: none;
+ color: rgb(177, 177, 177);;
+}
+
+.inp {
+    margin-top: -10px;
+    height: 40px;
+    padding: 0px 15px;
+    font-size: 17px;
+    border: 1px solid rgb(207, 207, 207);
+    outline: none;
+}
+
+.inp::placeholder {
+    color: rgb(200, 200, 200);
+}
+
+#forgot-div {
+    height: 17px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+#forgot-div > div {
+    display: flex;
+    align-items: center;
+}
+
+#check {
+    width: 17px;
+    height: 17px;  
+}
+
+#terms {
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+#bt {
+    background-color: #ffda00;
+    height: 45px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#bt+p {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#google{
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#google img{
+    border-radius: 50%;
+    width: 65px;
+    height: 60px;
+    margin-bottom: 10px;
+}

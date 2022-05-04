@@ -1,0 +1,290 @@
+
+#HP-cat {
+    font-family: 'Open Sans', sans-serif;
+    height: 450px;
+    width: 78%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+#hp-block1 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+    font-size: 17px;
+}
+
+#cat {
+    /* border: 1px solid; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.subh {
+    /* border: 1px solid; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffda00;
+}
+
+#hp-block2 {
+    height: 91%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg?imbypass=true");
+    /* border: 1px solid red; */
+}
+
+#hp-block1 > :nth-child(1):hover{
+    text-decoration: none;
+}
+
+#hp-block1 > div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+#block2-cat {
+    width: 236px;
+    height: 100%;
+    /* border: 1px solid ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+}
+
+#block2-cat > div {
+    height: 27px;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+}
+
+#block2-cat > div:hover {
+    background-color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#block-3 {
+    height: 120px;
+    width: 78%;
+    margin: auto;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #block-2-right {
+    width: 80.5%;
+    display: flex;
+    visibility: hidden;
+    border: 1px solid red;
+} */
+
+/* Position Absolute properties */
+.block-2-right {
+    width: 62%;
+    height: 54%;
+    position: absolute;
+    left: 409px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-industry {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility:collapse;
+    /* border: 1px solid red; */
+}
+
+.block-2-cellphone {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-appliance {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-fitness {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-computer {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-health {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-home {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-drone {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-garden {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-car {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-men {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-watch {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-gearbest {
+    width: 61.9%;
+    height: 54%;
+    position: absolute;
+    top: 48px;
+    left: 411px;
+    display: flex;
+    visibility: hidden;
+    /* border: 1px solid red; */
+}
+
+.block-2-right-sub {
+    width: 80%;
+    background-color: white;
+}
+
+.block-2-right-sub + div {
+    width: 25.5%;
+}
+
+.block-2-right-sub + div > img {
+    height: 100%;
+    width: 100%;
+}
+
+.block-2-right-sub > div {
+    height: 50%;
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-around;
+    line-height: 10px;
+}
+
+.block-2-right-sub > div > div {
+    width: 32%;
+}
+
+
+.block-2-right-sub p {
+    font-size: 13px;
+}
+
+.block-2-right-sub > div > div > :hover{
+    font-weight: bold;
+    color: orange;
+    cursor: pointer;
+}
