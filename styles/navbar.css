@@ -82,8 +82,7 @@ ul {
 .headSearch_All{
     display: flex; 
     align-items: center; 
-    margin-left: 10px;
-    
+    margin-left: 10px;  
 }
 .headSearch_All>span{
  color:#000000;
@@ -95,7 +94,7 @@ ul {
     border:none;
     margin-left: 10px;
     margin-right: 10px;
-    outline: none;
+    outline: none;  
 }
 
 #search_icon{
@@ -104,6 +103,8 @@ ul {
     background-color:  #ffda00;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    border:10px solid #ffda00;
+    margin-top: -0.5px;
 }
 #search_icon>i{
    padding:0px 10px 0px 10px;
