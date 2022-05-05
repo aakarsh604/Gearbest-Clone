@@ -1,0 +1,109 @@
+* {
+    font-family: arial;
+}
+
+#top-sec {
+    width: 79%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 45px;
+    width: 200px;
+}
+
+#add {
+    margin-top: 45px;
+    margin-left: 158px;
+}
+
+#inp-sec {
+    height: 700px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 210px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#inp-sec > div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* border: 1px solid yellow; */
+    height: 50px;
+}
+
+#inp-sec > div > :nth-child(1) {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
+
+#inp-sec > div > :nth-child(2) {
+    width: 70%;
+}
+
+#inp-sec > div > div {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.addinp {
+    width: 430px;
+    height: 35px;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 0px 20px;
+    font-size: 15px;
+    outline: 0px;
+}
+
+.addinp:focus {
+    outline: 1px solid yellow;
+}
+
+.imp {
+    font-size: 20px;
+    color: red;
+}
+
+.addinp + p {
+    font-size: 13px;
+    margin-top: 4px;
+    color: rgb(181, 181, 181);
+    width: 500px;
+}
+
+#checkbox {
+    height: 15px;
+    width: 15px;
+    margin-left: -15px;
+}
+
+#cancelbtn , #confirmbtn {
+    height: 40px ;
+    width: 130px;
+    border: none;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#confirmbtn {
+    background: #ffda00;
+    border: none;
+}
+
+#btndiv {
+    display: flex;
+    gap: 25px;
+}

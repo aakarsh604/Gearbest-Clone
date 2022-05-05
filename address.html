@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/address.css">
+</head>
+<body>
+    <div id="top-sec">
+        <img id="logo" src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true" alt="logo">
+    </div>
+    <h2 id="add">Add New Address</h2>
+
+    <!-- Input section starts from here  -->
+    <div id="inp-sec">
+        <div>
+            <div><span  class="imp">*</span>First name:</div>
+            <div><input id="first" class="addinp" type="text"></div>
+        </div>
+        <div>
+            <div><span class="imp">*</span>Last name:</div>
+            <div><input id="last" class="addinp" type="text"></div>
+        </div>
+        <div>
+            <div><span  class="imp">*</span>Address Line 1:</div>
+            <div>
+                <input id="addone" class="addinp" type="text" placeholder="Street address, flat, suit, unit, building, floor, etc.">
+                <p>Note: please write your address in English.</p>
+            </div>
+        </div>
+        <div>
+            <div>Address Line 2:</div>
+            <div>
+                <input id="addtwo" class="addinp" type="text">
+                <p>Note: please write your address in English.</p>
+            </div>
+        </div>
+        <div>
+            <div><span  class="imp">*</span>State / Province:</div>
+            <div><input id="state" class="addinp" type="text"></div>
+        </div>
+        <div>
+            <div><span  class="imp">*</span>City:</div>
+            <div><input id="city" class="addinp" type="text"></div>
+        </div>
+        <div>
+            <div><span  class="imp">*</span>ZIP / Postal Code:</div>
+            <div><input id="pin" class="addinp" type="text"></div>
+        </div>
+        <div>
+            <div><span  class="imp">*</span>Phone Number:</div>
+            <div>
+                <input id="mobile" class="addinp" type="text">
+                <p>Note: Required by courier/postman to ensure delivery and prevent delays. This MUST be the correct number.</p>
+            </div>
+        </div>
+        <div>
+            <div><span  class="imp">*</span>E-mail Address:</div>
+            <div><input id="email" class="addinp" type="text"></div>
+        </div>
+        <div>
+            <div></div>
+            <div><label for="checkbox"><input id="checkbox" type="checkbox">Set as my default address</label></div>
+        </div>
+        <div>
+            <div></div>
+            <div id="btndiv"><button id="cancelbtn" >Cancel</button><button id="confirmbtn" >Confirm</button></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./scripts/address.js"></script>
