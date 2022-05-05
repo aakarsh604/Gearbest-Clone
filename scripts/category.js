@@ -1,4 +1,10 @@
 
+import navbar from "../Components/navbar.js"
+document.getElementById("headIndex").innerHTML = navbar();
+console.log(navbar);
+
+
+
 document.querySelector(".consumer").addEventListener("mouseenter", show1);
 function show1() {
     let right = document.querySelector(".block-2-right");
