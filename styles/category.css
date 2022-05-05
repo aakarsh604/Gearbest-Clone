@@ -291,3 +291,166 @@
     color: orange;
     cursor: pointer;
 }
+
+
+
+/* Product part css starts from here */
+#container{
+    display: grid;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    width: 78%;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.subhed1{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+
+
+    #main1{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+    }
+
+    #main1 > div >img{
+        max-width: 100%;
+    }
+
+    #main1 > div{
+        width: 95%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #main1 > div:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+
+
+
+    #main2{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    #main2 > div > h4{
+        text-decoration: line-through;
+    }
+
+    #main2 > div >img{
+        max-width: 100%;
+    }
+
+    #main2 > div{
+        width: 95%;
+        text-align: center
+    }
+
+    #main2 > div:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #main2 > div > p:nth-child(3) {
+        text-decoration: line-through;
+        color: black;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #main2 > div > p:nth-child(4){
+        color: #f41951;
+    }
+
+
+
+
+
+
+    #main3{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); 
+    }
+
+    #main3 > div > p:nth-child(2) {
+        text-decoration: line-through;
+    }
+
+    #main3 > div >img{
+        max-width: 100%;
+    }
+
+    #main3 > div{
+        width: 95%;
+        text-align: center
+    }
+
+    #main3 > div:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+
+
+
+
+
+    #java_container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 100%;
+    }
+
+    #java_container >div{
+        width: 95%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        justify-content: space-around;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #java_container>div:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+    }
+
+    .para1{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .para2{
+        color: #f41951;
+        font-size: 20px;
+        /* font-weight: bold; */
+    }
+
+    .para3{
+        color: rgb(198, 18, 138);
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .span1 {
+        font-size: 15px;
+        color: rgb(194, 184, 184);
+    }
+
+    div1{
+        text-align: end;
+    }
+
+    #main1 img, #main2 img, #main3 img, #java_container img  {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* #java_container >div {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        justify-content: space-around;
+    } */
