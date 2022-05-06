@@ -321,7 +321,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6866331803104505856/16406/goods_img-v1/c54120f58bbb.jpg",
         name:"New Arrival 4G LTE Tablets 10.1 Inch Android 9.0 Octa Core",
         price:18244.00,
-        act_price:15294.00,
+        act_price:19294.00,
     },
 
     {
