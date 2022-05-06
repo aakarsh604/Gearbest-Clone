@@ -14,7 +14,7 @@
     </div>
 
     <!-- Signup section -->
-    <div class="reg-box">
+    <form class="reg-box">
         <div  class="hed">
             <div>
                 <h3><a href="login.html">SIGN IN</a></h2>
@@ -23,19 +23,21 @@
                 <h3>REGISTER</h2>
             </div>
         </div>
-        <input class="inp" type="mail" placeholder="Email">
-        <input class="inp" type="password" placeholder="Create Password">
-        <input class="inp" type="password" placeholder="Re-type Password">
-        <input class="inp" type="text" placeholder="Enter the code">
+        <input id="mail" class="inp" type="mail" placeholder="Email" required>
+        <input id="pass1" class="inp" type="password" placeholder="Create Password" required>
+        <input id="pass2" class="inp" type="password" placeholder="Re-type Password" required>
+        <input id="code" class="inp" type="text" placeholder="Enter the code">
        <div id="chek">
         <input id="check" type="checkbox">
         <label for="check" id="terms" >I agree to Gearbest <a href="">Terms and Conditions </a> and <a href="">Privacy Policies.</a></label>
        </div>
         <p>Tip: To maximize online security, please do not reuse passwords or choose easy to guess ones on Gearbest.
         </p>
-        <button>Register</button>
+        <button id="register">Register</button>
         <p>or connect via</p>
         <div id="google"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwtv-SfCJADd7ibbG64VkJgYgGHf_68mojA&usqp=CAU" alt=""></div>
-    </div>
+    </form>
 </body>
 </html>
+
+<script src="./scripts/signup.js"></script>

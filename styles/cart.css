@@ -1,0 +1,148 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#top-sec {
+    width: 79%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 45px;
+    width: 200px;
+}
+
+#bar {
+    width: 79%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#bar img {
+    width: 100%;
+}
+
+#total-box {
+    width: 78%;
+    margin: auto;
+    height: 220px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+#total-box > div {
+    height: 50%;
+    /* border: 1px solid blue; */
+}
+
+#total-sub1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#total-sub1 > :nth-child(1){
+    width: 35%;
+}
+
+#total-sub2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+#total-sub2 > :nth-child(1) { 
+    width: 35%;
+    /* border: 1px solid violet; */
+    display: flex;
+    align-items: center;
+}
+
+#total-sub2 > :nth-child(1) a {
+    color: rgb(96, 96, 96);
+}
+
+#total-sub2 > :nth-child(2) {
+    display: flex;
+    width: 55%;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#paypal {
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+#paytm {
+    height: 65px;
+    width: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#btn {
+    height: 40px ;
+    width: 160px;
+    border: none;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    background: #ffda00;
+    border: none;
+    cursor: pointer;
+}
+
+#total-sub1 > div {
+    display: flex;
+    gap: 30px;
+}
+
+.sub-sub1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sub-sub1 h4 {
+    margin: 0px;
+    margin-top : 0px;
+}
+
+.sub-sub1 p {
+    margin: 0px;
+    margin-top : 0px;
+    font-size: 13px;
+}
+
+#totol-display {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#totol-display > div {
+    box-sizing: border-box;
+    margin: -8px;
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+#total-div {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f30240;
+}
