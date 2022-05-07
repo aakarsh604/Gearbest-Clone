@@ -1,126 +1,14 @@
-
-import {navbar} from '../Components/navbar.js'
+import {navbar} from "../Components/navbar.js"
 document.getElementById("headIndex").innerHTML = navbar();
 
-import footer from '../Components/footer.js'
-document.getElementById('footer').innerHTML=footer()
 
-document.querySelector(".consumer").addEventListener("mouseenter", show1);
-function show1() {
-    let right = document.querySelector(".block-2-right");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".industry").addEventListener("mouseover", show2);
-function show2() {
-    let right = document.querySelector(".block-2-industry");
-    right.style.visibility = "visible";
-}
-
-// document.querySelector(".industry").addEventListener("mouseleave", show16);
-// function show16() {
-//     let right = document.querySelector(".block-2-industry");
-//     right.style.visibility = "hidden";
-// }
-
-document.querySelector(".cellphone").addEventListener("mouseenter", show3);
-function show3() {
-    let right = document.querySelector(".block-2-cellphone");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".appliance").addEventListener("mouseenter", show4);
-function show4() {
-    let right = document.querySelector(".block-2-appliance");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".fitness").addEventListener("mouseenter", show5);
-function show5() {
-    let right = document.querySelector(".block-2-fitness");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".computer").addEventListener("mouseenter", show6);
-function show6() {
-    let right = document.querySelector(".block-2-computer");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".health").addEventListener("mouseenter", show7);
-function show7() {
-    let right = document.querySelector(".block-2-health");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".home").addEventListener("mouseenter", show8);
-function show8() {
-    let right = document.querySelector(".block-2-home");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".drone").addEventListener("mouseenter", show9);
-function show9() {
-    let right = document.querySelector(".block-2-drone");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".garden").addEventListener("mouseenter", show10);
-function show10() {
-    let right = document.querySelector(".block-2-garden");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".car").addEventListener("mouseenter", show11);
-function show11() {
-    let right = document.querySelector(".block-2-car");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".men").addEventListener("mouseenter", show12);
-function show12() {
-    let right = document.querySelector(".block-2-men");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".watch").addEventListener("mouseenter", show13);
-function show13() {
-    let right = document.querySelector(".block-2-watch");
-    right.style.visibility = "visible";
-}
-
-document.querySelector(".gearbest").addEventListener("mouseenter", show14);
-function show14() {
-    let right = document.querySelector(".block-2-gearbest");
-    right.style.visibility = "visible";
-}
-
-// Slideshow Code is here 
-let imgslide = document.getElementById("hp-block2");
-let i = 1;
-let image_arr = [
-  "https://uidesign.gbtcdn.com/GB/image/8823/1190X4200.jpg?imbypass=true",
-  "https://uidesign.gbtcdn.com/GB/image/9746/1190X420.jpg",
-  "https://uidesign.gbtcdn.com/GB/image/8823/PC+1190X420-en.jpg",
-  "https://uidesign.gbtcdn.com/GB/image/9746/PC+1190.jpg?imbypass=true",
-  "https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg?imbypass=true",
-];
-
-imgslide.style.backgroundImage = `url(${image_arr[0]})`;
-setInterval(function () {
-  if (i == image_arr.length) i = 0;
-
-  imgslide.style.backgroundImage = `url(${image_arr[i]})`;
-  i++;
-}, 3500);
+import footer from "../Components/footer.js";
+document.querySelector("#footer").innerHTML = footer();
 
 
 
 
-
-// Products scripts starts from here
-
-var ProductData = [
+var ProductDatas = [
     {
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16454/goods_img-v1/42405dc55cb8.jpg",
         name:"OUKITEL WP15 5G Global Bands 15600mAh Battery Dimensity",
@@ -368,43 +256,45 @@ var ProductData = [
 
 ];
 
-
-
-window.addEventListener("load", function (){
-    displayData(ProductData)
-});
-
-function displayData(ProductData){
-    document.querySelector("#java_container").innerText ="";
-    ProductData.map(function (e){
-        var div = document.createElement("div");
-
-        var img = document.createElement("img");
-        img.src = e.img_url;
-
-        var p1 = document.createElement("p");
-        p1.setAttribute("class", "para1")
-        p1.innerText = e.name;
-
-        var p2 = document.createElement("p")
-        p2.setAttribute("class", "para2")
-        p2.setAttribute("id", "bestpricepar")
-        p2.innerText = "₹" + e.price +" "
-
-        var span = document.createElement("span");
-        span.setAttribute("class", "span1")
-
-        var mark = document.createElement("del");
-        mark.innerText = "₹" + e.act_price;
-        span.append(mark);
-        p2.append(span);
-
-        var p3 = document.createElement("p");
-        p3.setAttribute("class", "para3")
-        p3.innerText = "You Save ₹" + [e.act_price - e.price] + " [" + Math.round(100 - (e.price / e.act_price) *100) + "%" + " off]"
-
-        div.append(img, p1, p2, p3);
-        // div.append(div1)
-        document.querySelector("#java_container").append(div);
-    });
+function AllproductData(ProductDatas){
+    document.getElementById('products').innerHTML=""
+    ProductDatas.forEach(function(ele){
+        let box=document.createElement('div')
+        let img=document.createElement('img')
+        img.src=ele.img_url;
+        img.style.height='220px'
+        let name=document.createElement('p');
+        name.innerText=ele.name;
+        name.style.textAlign='center'
+        let price=document.createElement('p');
+        price.innerText="₹"+ele.price;
+        box.addEventListener('click',function(){
+            productpage(ele);
+            
+        })
+        box.append(img,name,price)
+        document.getElementById('products').append(box)
+    })
 }
+
+AllproductData(ProductDatas)
+
+function productpage(ele){
+    localStorage.setItem('ProductDetail',JSON.stringify(ele));
+}
+
+
+
+// console.log(sorting)
+
+document.getElementById('zero-to-thousand').addEventListener('click',productsort);
+
+function productsort(){
+//    console.log('working')
+   ProductDatas.sort(function(a,b){
+       return Number(a.price)-Number(b.price);
+   })
+   console.log(ProductDatas)
+   AllproductData(ProductDatas)
+}
+
