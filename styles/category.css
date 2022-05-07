@@ -45,7 +45,7 @@
     display: flex;
     justify-content: space-between;
     background-image: url("https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg?imbypass=true");
-    /* border: 1px solid red; */
+    position: relative;
 }
 
 #hp-block1 > :nth-child(1):hover{
@@ -75,6 +75,9 @@
     padding: 0px 10px;
     font-size: 14px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: black;
     /* border: 1px solid red; */
 }
 
@@ -103,156 +106,184 @@
 
 /* Position Absolute properties */
 .block-2-right {
-    width: 62%;
-    height: 54%;
+    width: 80%;
+    height: 100%;
     position: absolute;
-    left: 409px;
+    left: 235px;
     display: flex;
     visibility: hidden;
-    /* border: 1px solid red; */
+}
+.block-2-right h5 {
+    color: black;
 }
 
 .block-2-industry {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
     visibility:collapse;
-    /* border: 1px solid red; */
+}
+.block-2-industry h5 {
+    color: black;
 }
 
 .block-2-cellphone {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-cellphone h5 {
+    color: black;
 }
 
 .block-2-appliance {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-appliance h5 {
+    color: black;
 }
 
 .block-2-fitness {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-fitness h5 {
+    color: black;
 }
 
 .block-2-computer {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-computer h5 {
+    color: black;
 }
 
 .block-2-health {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-health h5 {
+    color: black;
 }
 
 .block-2-home {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-home h5 {
+    color: black;
 }
 
 .block-2-drone {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-drone h5 {
+    color: black;
 }
 
 .block-2-garden {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-garden h5 {
+    color: black;
 }
 
 .block-2-car {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-car h5 {
+    color: black;
 }
 
 .block-2-men {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-men h5 {
+    color: black;
 }
 
 .block-2-watch {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-watch h5 {
+    color: black;
 }
 
 .block-2-gearbest {
-    width: 61.9%;
-    height: 54%;
+    width: 61.8%;
+    height: 57.5%;
     position: absolute;
-    top: 48px;
-    left: 411px;
+    top: 155px;
+    left: 408px;
     display: flex;
-    visibility: hidden;
-    /* border: 1px solid red; */
+    visibility:collapse;
+}
+.block-2-gearbest h5 {
+    color: black;
 }
 
 .block-2-right-sub {

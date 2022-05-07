@@ -1,99 +1,491 @@
 
-import navbar from "../Components/navbar.js"
+import {navbar} from '../Components/navbar.js'
 document.getElementById("headIndex").innerHTML = navbar();
-console.log(navbar);
 
-import footer from "../Components/footer.js";
-document.querySelector("#footer").innerHTML = footer();
+import footer from '../Components/footer.js'
+document.getElementById('footer').innerHTML=footer()
 
 document.querySelector(".consumer").addEventListener("mouseenter", show1);
 function show1() {
     let right = document.querySelector(".block-2-right");
     right.style.visibility = "visible";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".industry").addEventListener("mouseover", show2);
 function show2() {
-    let right = document.querySelector(".block-2-industry");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "visible";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
-
-// document.querySelector(".industry").addEventListener("mouseleave", show16);
-// function show16() {
-//     let right = document.querySelector(".block-2-industry");
-//     right.style.visibility = "hidden";
-// }
 
 document.querySelector(".cellphone").addEventListener("mouseenter", show3);
 function show3() {
-    let right = document.querySelector(".block-2-cellphone");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "visible";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".appliance").addEventListener("mouseenter", show4);
 function show4() {
-    let right = document.querySelector(".block-2-appliance");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "visible";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".fitness").addEventListener("mouseenter", show5);
 function show5() {
-    let right = document.querySelector(".block-2-fitness");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "visible";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".computer").addEventListener("mouseenter", show6);
 function show6() {
-    let right = document.querySelector(".block-2-computer");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "visible";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".health").addEventListener("mouseenter", show7);
 function show7() {
-    let right = document.querySelector(".block-2-health");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "visible";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".home").addEventListener("mouseenter", show8);
 function show8() {
-    let right = document.querySelector(".block-2-home");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "visible";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".drone").addEventListener("mouseenter", show9);
 function show9() {
-    let right = document.querySelector(".block-2-drone");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "visible";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".garden").addEventListener("mouseenter", show10);
 function show10() {
-    let right = document.querySelector(".block-2-garden");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "visible";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".car").addEventListener("mouseenter", show11);
 function show11() {
-    let right = document.querySelector(".block-2-car");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "visible";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".men").addEventListener("mouseenter", show12);
 function show12() {
-    let right = document.querySelector(".block-2-men");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "visible";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".watch").addEventListener("mouseenter", show13);
 function show13() {
-    let right = document.querySelector(".block-2-watch");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "visible";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "hidden";
 }
 
 document.querySelector(".gearbest").addEventListener("mouseenter", show14);
 function show14() {
-    let right = document.querySelector(".block-2-gearbest");
-    right.style.visibility = "visible";
+    let q = document.querySelector(".block-2-right");
+    q.style.visibility = "hidden";
+    let w = document.querySelector(".block-2-industry");
+    w.style.visibility = "hidden";
+    let e = document.querySelector(".block-2-cellphone");
+    e.style.visibility = "hidden";
+    let r = document.querySelector(".block-2-appliance");
+    r.style.visibility = "hidden";
+    let t = document.querySelector(".block-2-fitness");
+    t.style.visibility = "hidden";
+    let y = document.querySelector(".block-2-computer");
+    y.style.visibility = "hidden";
+    let u = document.querySelector(".block-2-health");
+    u.style.visibility = "hidden";
+    let i = document.querySelector(".block-2-home");
+    i.style.visibility = "hidden";
+    let o = document.querySelector(".block-2-drone");
+    o.style.visibility = "hidden";
+    let p = document.querySelector(".block-2-garden");
+    p.style.visibility = "hidden";
+    let a = document.querySelector(".block-2-car");
+    a.style.visibility = "hidden";
+    let s = document.querySelector(".block-2-men");
+    s.style.visibility = "hidden";
+    let d = document.querySelector(".block-2-watch");
+    d.style.visibility = "hidden";
+    let f = document.querySelector(".block-2-gearbest");
+    f.style.visibility = "visible";
+}
+
+let body = document.body;
+window.onclick = function(event) {
+    if ( event.target === body ){
+        let q = document.querySelector(".block-2-right");
+        q.style.visibility = "hidden";
+        let w = document.querySelector(".block-2-industry");
+        w.style.visibility = "hidden";
+        let e = document.querySelector(".block-2-cellphone");
+        e.style.visibility = "hidden";
+        let r = document.querySelector(".block-2-appliance");
+        r.style.visibility = "hidden";
+        let t = document.querySelector(".block-2-fitness");
+        t.style.visibility = "hidden";
+        let y = document.querySelector(".block-2-computer");
+        y.style.visibility = "hidden";
+        let u = document.querySelector(".block-2-health");
+        u.style.visibility = "hidden";
+        let i = document.querySelector(".block-2-home");
+        i.style.visibility = "hidden";
+        let o = document.querySelector(".block-2-drone");
+        o.style.visibility = "hidden";
+        let p = document.querySelector(".block-2-garden");
+        p.style.visibility = "hidden";
+        let a = document.querySelector(".block-2-car");
+        a.style.visibility = "hidden";
+        let s = document.querySelector(".block-2-men");
+        s.style.visibility = "hidden";
+        let d = document.querySelector(".block-2-watch");
+        d.style.visibility = "hidden";
+        let f = document.querySelector(".block-2-gearbest");
+        f.style.visibility = "hidden";
+
+    }
 }
 
 // Slideshow Code is here 
