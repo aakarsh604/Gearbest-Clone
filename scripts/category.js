@@ -409,3 +409,13 @@ function displayData(ProductData){
         document.querySelector("#java_container").append(div);
     });
 }
+
+
+// footer js........>>>>>
+
+
+document.querySelector(".footerSubscribe_submit").addEventListener("click",subscribe);
+function subscribe(){
+alert("you have subscribed");
+window.location.href="index.html";
+}
