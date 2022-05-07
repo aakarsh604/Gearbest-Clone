@@ -1,10 +1,9 @@
 
-import navbar from "../Components/navbar.js"
+import {navbar} from '../Components/navbar.js'
 document.getElementById("headIndex").innerHTML = navbar();
-console.log(navbar);
 
-import footer from "../Components/footer.js";
-document.querySelector("#footer").innerHTML = footer();
+import footer from '../Components/footer.js'
+document.getElementById('footer').innerHTML=footer()
 
 document.querySelector(".consumer").addEventListener("mouseenter", show1);
 function show1() {
