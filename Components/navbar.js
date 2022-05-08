@@ -141,7 +141,7 @@ function navbar(){
                    <div class="compDropdown-cont"> 
                        <div class="headUser_login"> 
                            <p class="headUser_loginLabel">Welcome to Gearbest</p> 
-                           <a href="https://login.gearbest.com/m-users-a-sign.htm?type=1" class="headUser_btnLogin" rel="nofollow">Sign In</a>
+                           <a href="signup.html" class="headUser_btnLogin" rel="nofollow">Sign In</a>
                          <div class="headUser_socialLogin js-panelSocialLogin" style="display: block;"> 
                             <span class="headUser_socialLabel">or connect via</span> 
                            <img src="https://img.icons8.com/color/344/google-logo.png" class="google_image"/>
@@ -152,7 +152,7 @@ function navbar(){
                    </div>
                 </div>
             </div> 
-            <a href="https://user.gearbest.com/index#/favor/goods" class="headEntries_item headCollect" rel="nofollow"> 
+            <a href="login.html" class="headEntries_item headCollect" rel="nofollow"> 
                 <span class="headEntries_icon headEntries_iconFav"></span> 
                 <span>Favorites</span> 
                 <em data-type="1" class="headEntries_itemBadge js-collectNum">0</em> 
@@ -163,15 +163,6 @@ function navbar(){
                          <span>Cart</span> 
                          <em class="headEntries_itemBadge js-cartNum">0</em> 
                       </a> 
-                      <div class="compDropdown-panel compDropdown-panelLeft js-headCart">
-                           <div class="compDropdown-cont headCart_panel"> 
-                               <div class="headCart_dataPanel" id="js-panelHeadCartList"> 
-
-                                 <div class="headCart_emptyBox">Your shopping cart is empty. Go shopping!</div>
-              
-                               </div> 
-                            </div> 
-                       </div> 
                 </div>
            
        </div>

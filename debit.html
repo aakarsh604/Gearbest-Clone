@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gearbest/Payment page</title>
+    <title>Document</title>
 </head>
 <style>
 #box1{
@@ -97,15 +97,14 @@ margin: 10px;
     width: 90%; 
     padding: 20px 30px 20px 30px;
     color: black;
-    background-color: #ffda00;
+    font-weight: bold;
+    background-color: #ffda00;;
     border: 0px solid;
     box-shadow: 4px 4px 4px 4px rgb(241, 231, 231);
-    font-weight: bold;
 }
-.hovering-div:hover{
-    cursor: pointer;
+#btn1:hover{
+cursor:pointer;
 }
-
 
 </style>
 
@@ -123,16 +122,16 @@ margin: 10px;
                 <div>
                     <div id = "box6">
                         <div>
-                            <button id = "btn2" class="hovering-div">Credit card</button>
+                            <button id = "btn2">Credit card</button>
                         </div>
                         <div> 
-                            <button id = "btn3" class="hovering-div">Debit Card</button>
+                            <button id = "btn3">Debit Card</button>
                         </div>
                         <div>
-                            <button id = "btn4" class="hovering-div">Netbanking</button>
+                            <button id = "btn4">Netbanking</button>
                         </div>
                         <div>
-                            <button id = "btn5" class="hovering-div">Cash On Delivery</button>
+                            <button id = "btn5">Cash On Delivery</button>
                         </div>
                     </div>
                     <div id = "box7">
@@ -301,7 +300,7 @@ var num = +(cardno);
     if((cardno >= 1000000000000000 && cardno <= 9999999999999999)){
     if(cvv >=100 && cvv <=999){
         if(year !== "Expiry Year" ){
-            window.location.href= "success.html";
+            window.location.href= "refresh.html";
         }
 
     }
@@ -313,11 +312,6 @@ else{
     alert("Please Enter the right values of all inputs");
 }
 }
-
-
-
-
-
 </script>
 
 
