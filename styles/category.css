@@ -344,6 +344,7 @@
 
 
 
+
     #main1{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -412,6 +413,11 @@
 
     #main3 > div > p:nth-child(2) {
         text-decoration: line-through;
+        color: black;
+    }
+
+    #main3 > div > p:nth-child(3) {
+        color: #f41951;
     }
 
     #main3 > div >img{

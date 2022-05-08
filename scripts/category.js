@@ -518,6 +518,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16454/goods_img-v1/42405dc55cb8.jpg",
         name:"OUKITEL WP15 5G Global Bands 15600mAh Battery Dimensity",
         price: 11295.00,
+        qprice: 11295.00,
         act_price: 15305.00,
     },
 
@@ -525,6 +526,7 @@ var ProductData = [
         img_url: "https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16421/goods_img-v4/a0da751fd8f8.jpg",
         name: "Original Xiaomi Redmi Airdots 2 TWS Fone Bluetooth Earphon",
         price: 798.00,
+        qprice: 798.00,
         act_price: 1229.00,
     },
 
@@ -532,6 +534,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16416/goods_img-v1/5e4723996cff.jpg",
         name:"Xiaomi Mi Water Immersing Sensor Smart Wireless Water",
         price:999.00,
+        qprice: 999.00,
         act_price:1299.00,
     },
 
@@ -539,6 +542,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16499/goods_img-v5/6233d35f6f8a.jpg",
         name:"Global Version MI 11 Ultra 6.3 inch Smartphone 12Gb Cell",
         price:19992.00,
+        qprice: 19992.00,
         act_price:23099.00,
     },
 
@@ -546,6 +550,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878030535709618176/16492/goods_img-v1/bb1748b1d9f2.jpg",
         name:"A9 Mini WiFi Video Surveillance 1080p HD Infrared Night Vision",
         price:2000.00,
+        qprice: 2000.00,
         act_price:2500.00,
     },
 
@@ -553,6 +558,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16414/goods_img-v1/5f26bc001550.jpg",
         name:"Original Xiaomi Redmi Buds 3 Lite Youth Edition Earphone",
         price:1505.00,
+        qprice: 1505.00,
         act_price:2009.00,
     },
 
@@ -714,7 +720,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6866331803104505856/16406/goods_img-v1/c54120f58bbb.jpg",
         name:"New Arrival 4G LTE Tablets 10.1 Inch Android 9.0 Octa Core",
         price:18244.00,
-        act_price:15294.00,
+        act_price:19294.00,
     },
 
     {
@@ -786,21 +792,44 @@ function displayData(ProductData){
 
         var span = document.createElement("span");
         span.setAttribute("class", "span1")
-
+        
         var mark = document.createElement("del");
         mark.innerText = "₹" + e.act_price;
         span.append(mark);
         p2.append(span);
 
+        var p9 = document.createElement("p");
+        p9.innerText = "₹" + e.qprice;
+
         var p3 = document.createElement("p");
         p3.setAttribute("class", "para3")
         p3.innerText = "You Save ₹" + [e.act_price - e.price] + " [" + Math.round(100 - (e.price / e.act_price) *100) + "%" + " off]"
 
-        div.append(img, p1, p2, p3);
+        var btn=document.createElement("button");
+        btn.innerText="Add to Card";
+        btn.addEventListener("click", function () {
+        addToCart(e);
+        });
+
+
+        div.append(img, p1, p2, p3, btn);
         // div.append(div1)
         document.querySelector("#java_container").append(div);
+
+
     });
 }
+
+
+function addToCart(e){
+    var cartData=JSON.parse(localStorage.getItem("cartData"))||[];
+    console.log(cartData);
+    cartData.push(e);
+    localStorage.setItem("cartData",JSON.stringify(cartData));
+    alert("item added into the cart");
+    
+    }
+
 
 
 // footer js........>>>>>
@@ -811,3 +840,4 @@ function subscribe(){
 alert("you have subscribed");
 window.location.href="index.html";
 }
+
