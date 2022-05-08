@@ -10,6 +10,7 @@
 src="https://kit.fontawesome.com/24c494a6b6.js"
 crossorigin="anonymous"
 ></script> 
+<script src="party.min.js"></script>
     <style>
 
         * {
@@ -46,3 +47,15 @@ crossorigin="anonymous"
     <div id="backbtn"><a href="index.html">Go to Homepage</a></div>
 </body>
 </html>
+
+<script>
+
+    party.settings.debug = false;
+
+    document.body.addEventListener("click", function (e) {
+        e.preventDefault();
+        party.confetti(e);
+    })
+
+
+</script>
