@@ -487,6 +487,10 @@
         height: 250px;
     }
 
+    .icon {
+        color: rgb(95, 95, 95);
+    }
+
     /* #java_container >div {
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         justify-content: space-around;
