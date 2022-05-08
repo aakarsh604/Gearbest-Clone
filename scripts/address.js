@@ -15,12 +15,11 @@ function addAddress() {
 
   console.log(obj);
   localStorage.setItem("address", JSON.stringify(obj));
-  // window.location.href = "";
+  window.location.href = "shipping.html";
 }
 
-// document.querySelector("#cancelbtn").addEventListener("click", exit);
+document.querySelector("#cancelbtn").addEventListener("click", exit);
 
-// function exit () {
-
-//     window.location.href = "";
-// }
+function exit () {
+    window.location.href = "cart.html";
+}
