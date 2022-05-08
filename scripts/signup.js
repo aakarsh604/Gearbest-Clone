@@ -49,7 +49,7 @@ function signup () {
 
 (function() {
 
-    const fonts = [ 'cursive', 'sans-serif', 'arial', 'serif', 'monospace'];
+    const fonts = ['sans-serif', 'arial', 'serif', 'monospace'];
     let captchaValue = '';
 
     function generateCaptcha () {
@@ -82,15 +82,3 @@ function signup () {
     }
     initCaptcha();
 })();
-
-// document.querySelector("#login-btn").addEventListener("click", function () {
-//     let inputCaptchaValue = document.querySelector("#code").value;
-//     let captchaValue = document.querySelector(".preview").textContent;
-    
-//     if ( inputCaptchaValue !==  captchaValue )
-//     {
-//         alert("Invalid Captcha!!");
-//     } else {
-//         alert("Successfull");
-//     }
-// })

@@ -39,7 +39,7 @@ function discount () {
     if ( coupen === "MASAI20")
     {
         let coup = document.querySelector("#coup");
-        coup.innerText =  `₹${((Number(totalamount)/100)*20)}`;
+        coup.innerText =  `₹${((Number(totalamount)/100)*20).toFixed(2)}`;
     
         let discountedtotal = ( Number(totalamount) - ((Number(totalamount)/100)*20));
         let Gtot = document.querySelector("#Gtotal");
