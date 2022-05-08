@@ -44,13 +44,15 @@ document.querySelector("#addBtn").addEventListener("click", addToCart);
 function addToCart() {
   cartData.push(proData);
 
-  let cartnum = JSON.parse(localStorage.getItem("cart"));
-let length = cartnum.length;
-document.querySelector(".js-cartNum").innerHTML = length;
-  
   localStorage.setItem("cart", JSON.stringify(cartData));
+  
+  let cartnum = JSON.parse(localStorage.getItem("cart"));
+  let length = cartnum.length;
+  document.querySelector(".js-cartNum").innerHTML = length;
+  
 }
 
 let cartnum = JSON.parse(localStorage.getItem("cart"));
-let length = cartnum.length;
+console.log(cartnum);
+// let length = cartnum.length;
 document.querySelector(".js-cartNum").innerHTML = length;
