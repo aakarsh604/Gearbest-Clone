@@ -1,0 +1,64 @@
+#Omain{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#Omain2{
+    padding-top: 100px;
+    width: 38%;
+}
+#Ob1{
+    border: 3px solid red;
+    margin-top: -50px;
+    height: 120px;
+}
+#Obu{
+    border: 1px solid yellow;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    margin-top: 40px;
+    width: 80%;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+#Osec{
+    display: flex;
+    border: 1px solid purple;
+    justify-content: space-between;
+}
+
+#OSD{
+    border: 1px solid red;
+}
+
+#But{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(255, 128, 0);
+    border: 1px solid yellow;
+}
+
+#ApplyC{
+margin-left: 100px;
+margin-top: 50px;
+margin-bottom: 100px;
+border: 3px solid red;
+}
+
+#UseC{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+#SecU{
+    
+    padding: 10px;
+}
+#SecU > input{
+    width: 300px;
+    padding: 5px;
+}
