@@ -129,5 +129,6 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 3px;
+    cursor: pointer;
 }
 

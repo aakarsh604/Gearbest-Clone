@@ -5,7 +5,6 @@ document.getElementById("headIndex").innerHTML = navbar();
 import footer from "../Components/footer.js";
 document.querySelector("#footer").innerHTML = footer();
 
-
 var count =  document.getElementById("count")
 var counter = 1;
 document.querySelector("#add").addEventListener("click",incFun);
@@ -25,18 +24,33 @@ function decFun() {
 }
 
 
-
-var proData = JSON.parse(localStorage.getItem("ProductDetail"))
+var proData = JSON.parse(localStorage.getItem("proInfo"))
 console.log(proData);
 
-proData.map(function(elem){
+var image = document.querySelector("#proImg");
+image.src= proData.img_url;
 
-var image = document.querySelector("#proImg").value = null;
-image.scr=elem.image;
+var proName = document.querySelector("#proName");
+proName.innerText= proData.name;
 
-var proName = document.querySelector("#proName").innerText = null;
-proName.innerText=elem.name;
+var proPrice = document.querySelector("#proPrice");
+proPrice.innerText= `₹ ${proData.price}/-`;
 
-var proPrice = document.querySelector("#proPrice").innerText = null;
-proPrice.innerText=elem.price;
-});
+
+let cartData = JSON.parse(localStorage.getItem("cart")) || [] ;
+
+document.querySelector("#addBtn").addEventListener("click", addToCart);
+
+function addToCart() {
+  cartData.push(proData);
+
+  let cartnum = JSON.parse(localStorage.getItem("cart"));
+let length = cartnum.length;
+document.querySelector(".js-cartNum").innerHTML = length;
+  
+  localStorage.setItem("cart", JSON.stringify(cartData));
+}
+
+let cartnum = JSON.parse(localStorage.getItem("cart"));
+let length = cartnum.length;
+document.querySelector(".js-cartNum").innerHTML = length;

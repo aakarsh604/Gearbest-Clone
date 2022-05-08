@@ -1,7 +1,7 @@
 import footer from "../Components/footer.js";
 document.querySelector("#footer").innerHTML = footer();
 
-var cartData = JSON.parse(localStorage.getItem("cartData")) || [];
+var cartData = JSON.parse(localStorage.getItem("cart")) || [];
 window.addEventListener("load",function (){
         displayData(cartData);
     })
@@ -21,6 +21,8 @@ window.addEventListener("load",function (){
 
     total.innerText = total1 + total2;
     console.log("total", total.innerText);
+
+    document.querySelector("#subtotal-div").innerText = total.innerText;
 
     // displayData(cartData);
     
@@ -132,7 +134,7 @@ window.addEventListener("load",function (){
 
     function removeFun(elem,index){
         cartData.splice(index,1);
-        localStorage.setItem("cartData",JSON.stringify(cartData));
+        localStorage.setItem("cart",JSON.stringify(cartData));
         window.location.reload();
         // displayData(cartData);
 
@@ -156,5 +158,19 @@ function decFun() {
     counter--;
     count.innerText = counter ;
   }
+}
+
+document.querySelector("#btn").addEventListener("click", shipping);
+
+function shipping() {
+  let totalamount = total.innerText;
+  localStorage.setItem("totalamount", totalamount);
+  console.log(totalamount)
+  window.location.href = "shipping.html";
+}
+
+document.querySelector("#paytm").addEventListener("click", reload);
+function reload() {
+  window.location.reload();
 }
 
