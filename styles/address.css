@@ -96,6 +96,13 @@
     font-size: 17px;
     font-weight: bold;
     background-color: white;
+    cursor: pointer;
+}
+
+#cancelbtn:hover {
+    border: white;
+    color: white;
+    background-color: black;
 }
 
 #confirmbtn {
