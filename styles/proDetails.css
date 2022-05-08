@@ -1,0 +1,226 @@
+#proContainer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin-top: 50px;
+}
+#proImage{
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid teal; */
+    margin-left: 40px;
+}
+
+#proNameBox{
+    width: 80%;
+    font-family: sans-serif;
+}
+#proDetails{
+    width: 62%;
+    height: auto;
+    /* border: 1px solid blue; */
+    /* row-gap: 20px; */
+}
+.proPriceName{
+    color: #666666;
+    font-weight: lighter;
+}
+#proPrice{
+    color: #f83468;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #f83468;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.proPriceBox{
+    display: flex;
+    gap: 30px;
+    margin-top: -5px;
+}
+#proColor{
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    height: 30px;
+    color: #f83468;
+    border: 1px solid #f83468;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 43px;
+}
+#colorBlack{
+    text-align: center;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+.proContryChina{
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    height: 30px;
+    color: #fc2e65;
+    border: 1px solid #f83468;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.proContryUs{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #666666;
+    margin-top: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: #666666;
+}
+.proContryUs:hover{
+    color: #fc2e65;
+    border: 1px solid #f83468;
+}
+.proContryUk{
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 30px;
+    border: 1px solid #666666;
+    margin-top: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: #666666;
+}
+.proContryUk:hover{
+    color: #fc2e65;
+    border: 1px solid #f83468;
+}
+#proImg{
+    width: 92%;
+    height: 85%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+}
+#addBtn{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 0px;
+    color: #f83468;
+    border: 1px solid #f83468;
+    cursor: pointer;
+}
+#addBtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:#fc2e65;
+    color: white;
+}
+#pngBox{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 45px;
+    justify-content: space-evenly;
+}
+#paypal{
+    border: 1px solid #979494;
+    height: 22px;
+    padding: 4px;
+    margin-top: 10px;
+}
+#paypalImg{
+    width: 70px;
+    height: 20px;
+}
+#visaImg{
+    width: 60px;
+    height: 20px;
+}
+#masterImg{
+    width: 25px;
+    height: 20px;
+}
+.pngText{
+    font-style: italic;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+}
+#shipBtn{
+    background-color: #00cc99;
+    border: 1px solid #00cc99;
+    color: white;
+    font-family: sans-serif;
+}
+#qty{
+    display: flex;
+}
+#qtyBox{
+    display: flex;
+    margin-top: -5px;
+}
+#decBtn{
+    width: fit-content;
+    height: 20px;
+}
+#incBtn{
+    width: fit-content;
+    height: 20px;
+}
+
+
+#countBox{
+    display: flex;
+    margin-left: 79px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+#subs{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #aca8a8;
+    border-right: none;
+    /* margin-top: 15px; */
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#add{
+    width: 30px;
+    height: 30px;
+    justify-content: center; 
+    text-align: center;
+    border: 1px solid #aca8a8;
+    border-left: none;
+    /* margin-top: 15px; */
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#proNumber{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    height: 30px;
+    border: 1px solid #aca8a8;
+    /* margin-top: 15px; */
+    font-family: sans-serif;
+}
+#subSign{
+   margin-top: 0px;
+   font-weight: lighter;
+}
+#addSign{
+    margin-top: 0px;
+    font-weight: lighter;
+}
+#count{
+    margin-top: 0px;
+    font-weight: lighter;
+    color: #f83468;
+}
