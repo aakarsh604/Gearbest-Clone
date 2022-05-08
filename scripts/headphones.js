@@ -6,6 +6,10 @@ import footer from "../Components/footer.js";
 document.querySelector("#footer").innerHTML = footer();
 
 
+import { navbar_div } from "../Components/navbar-div.js";
+document.getElementById('navbar-div').innerHTML=navbar_div()
+
+
 
 let cellphoneData=[
    {

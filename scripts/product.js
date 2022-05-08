@@ -5,7 +5,8 @@ document.getElementById("headIndex").innerHTML = navbar();
 import footer from "../Components/footer.js";
 document.querySelector("#footer").innerHTML = footer();
 
-
+import { navbar_div } from "../Components/navbar-div.js";
+document.getElementById('navbar-div').innerHTML=navbar_div()
 
 
 var ProductDatas = [
@@ -297,4 +298,14 @@ function productsort(){
    console.log(ProductDatas)
    AllproductData(ProductDatas)
 }
+
+
+document.getElementById('pagehead').addEventListener('click',headpage)
+function headpage(){
+    console.log('woking')
+
+    window.location.href='headphones.html'
+
+}
+
 
