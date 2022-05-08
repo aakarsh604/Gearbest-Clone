@@ -166,7 +166,7 @@ function shipping() {
   let totalamount = total.innerText;
   localStorage.setItem("totalamount", totalamount);
   console.log(totalamount)
-  window.location.href = "shipping.html";
+  window.location.href = "address.html";
 }
 
 document.querySelector("#paytm").addEventListener("click", reload);
