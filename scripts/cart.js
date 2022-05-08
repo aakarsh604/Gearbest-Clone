@@ -1,7 +1,6 @@
 import footer from "../Components/footer.js";
 document.querySelector("#footer").innerHTML = footer();
 
-
 var cartData = JSON.parse(localStorage.getItem("cartData")) || [];
 window.addEventListener("load",function (){
         displayData(cartData);
@@ -158,3 +157,4 @@ function decFun() {
     count.innerText = counter ;
   }
 }
+
