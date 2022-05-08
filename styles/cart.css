@@ -26,7 +26,7 @@
 }
 
 #total-box {
-    width: 78%;
+    width: 79%;
     margin: auto;
     height: 220px;
     box-sizing: border-box;
@@ -145,4 +145,177 @@
     font-size: 25px;
     font-weight: bold;
     color: #f30240;
+}
+
+
+#CartCss{
+    width: 79%;
+    display: flex;
+   justify-content: space-between;
+    grid-template-rows: auto;
+    margin: auto;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+#CartCss:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#Scart{
+    padding-top: 20px;
+    gap :20px;
+    margin-top: 10px;
+}
+
+#Scart2{
+    margin-top: 50px;
+    padding-top: auto;
+    display: grid;
+}
+
+#Scart3{
+    margin-top: 65px;
+    padding-top: auto;
+    display: grid;
+}
+
+#Scart4{
+    margin-top: 50px;
+    padding-top: auto;
+    display: grid;
+}
+
+#Scart5{
+    margin-top: 65px;
+    padding-top: auto;
+    display: grid;
+}
+
+.bat{
+    background-color: #ffda00;
+    border: 1px solid #ffda00 ;
+}
+#Scart6{
+    margin-top: 50px;
+    padding-top: auto;
+    display: grid;
+}
+
+
+#Scart > div > img {
+    height: 100px;
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+#dis{
+    width: 78%;
+    margin-left: 10%;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+
+#main5{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 79%;
+    margin-left: 10%;
+}
+
+#main5 > div > h4{
+    text-decoration: line-through;
+}
+
+#main5 > div >img{
+    max-width: 100%;
+}
+
+#main5 > div{
+    width: 95%;
+    text-align: center
+}
+
+#main5 > div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#main5 > div > p:nth-child(3) {
+    text-decoration: line-through;
+    color: black;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main5 > div > p:nth-child(4){
+    color: #f41951;
+}
+
+
+
+#countBox{
+    display: flex;
+    margin-left: -40px;
+    margin-top: 53px;
+    cursor: pointer;
+}
+#subs{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #aca8a8;
+    border-right: none;
+    /* margin-top: 15px; */
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#add{
+    width: 30px;
+    height: 30px;
+    justify-content: center; 
+    text-align: center;
+    border: 1px solid #aca8a8;
+    border-left: none;
+    /* margin-top: 15px; */
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#proNumber{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    height: 30px;
+    border: 1px solid #aca8a8;
+    /* margin-top: 15px; */
+    font-family: sans-serif;
+}
+#subSign{
+   margin-top: 0px;
+   font-weight: lighter;
+}
+#addSign{
+    margin-top: 0px;
+    font-weight: lighter;
+}
+#count{
+    margin-top: 0px;
+    font-weight: lighter;
+    color: #f83468;
+}
+
+.counterbox{
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+    height: 20px;
+    /* border: 1px solid; */
+    justify-content: space-between;
 }
