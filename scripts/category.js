@@ -837,14 +837,14 @@ function displayData(ProductData){
         p3.setAttribute("class", "para3")
         p3.innerText = "You Save ₹" + [e.act_price - e.price] + " [" + Math.round(100 - (e.price / e.act_price) *100) + "%" + " off]"
 
-        var btn=document.createElement("button");
-        btn.innerText="Add to Card";
-        btn.addEventListener("click", function () {
-        addToCart(e);
-        });
+        // var btn=document.createElement("button");
+        // btn.innerText="Add to Card";
+        // btn.addEventListener("click", function () {
+        // addToCart(e);
+        // });
 
 
-        div.append(img, p1, p2, p3, btn);
+        div.append(img, p1, p2, p3);
         // div.append(div1)
         document.querySelector("#java_container").append(div);
 
@@ -882,3 +882,44 @@ let cartnum = JSON.parse(localStorage.getItem("cart"));
 let length = cartnum.length;
 
 document.querySelector(".js-cartNum").innerHTML = length;
+
+
+
+document.getElementById('search_icon').addEventListener('click',searchResult)
+
+
+//Search Results//
+function searchResult(){
+let search=document.getElementById('search').value;
+if(search=='product'){
+    window.location.href='consumer.html'
+}
+if(search=='headphones'){
+    window.location.href='headphones.html'
+}
+}
+
+
+
+//CartIcon
+
+let cartData = JSON.parse(localStorage.getItem("cart")) || [] ;
+
+cartData.forEach(function(ele){
+    let box=document.createElement('div')
+    box.style.display='flex'
+    let img=document.createElement('img');
+    img.src=ele.img_url;
+    img.setAttribute('class','cartimage')
+    let name=document.createElement('p');
+    name.setAttribute('class','cartname')
+    name.innerText=ele.name;
+   
+    let price=document.createElement('p');
+    price.innerText=ele.price;
+    price.setAttribute('class','pricecart')
+   
+  
+    box.append(img,name,price)
+    document.querySelector('.headCart_emptyBox').append(box)
+  })

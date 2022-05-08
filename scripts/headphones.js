@@ -127,6 +127,11 @@ function Cellphone(){
         name.style.textAlign='center'
         let price=document.createElement('p');
         price.innerText="₹"+ele.price;
+
+        box.addEventListener('click',function(){
+            headphonepage(ele);
+            
+        })
      
         box.append(img,name,price)
         document.getElementById('products-cell').append(box)
@@ -135,6 +140,11 @@ function Cellphone(){
 
 Cellphone(cellphoneData)
 
+
+function headphonepage(ele){
+    localStorage.setItem('proInfo',JSON.stringify(ele));
+    window.location.href = "proDetails.html";
+}
 
 document.getElementById('zero-to-thousand').addEventListener('click',productsort);
 

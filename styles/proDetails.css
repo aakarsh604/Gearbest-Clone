@@ -224,3 +224,35 @@ p{
     font-weight: lighter;
     color: #f83468;
 }
+
+/* CartIcon Products */
+.cartimage{
+    position: absolute;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.cartname{
+    /* padding-right: 30px; */
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    display: -webkit-box!important;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.pricecart{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 120px;
+    text-align: right;
+    color: #f30240;
+    font-size: 14px;
+    margin-top: -60px;
+}
