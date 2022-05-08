@@ -45,7 +45,7 @@ function addToCart() {
   cartData.push(proData);
 
   localStorage.setItem("cart", JSON.stringify(cartData));
-  
+
   let cartnum = JSON.parse(localStorage.getItem("cart"));
   let length = cartnum.length;
   document.querySelector(".js-cartNum").innerHTML = length;
@@ -54,5 +54,27 @@ function addToCart() {
 
 let cartnum = JSON.parse(localStorage.getItem("cart"));
 console.log(cartnum);
-// let length = cartnum.length;
+let length = cartnum.length;
 document.querySelector(".js-cartNum").innerHTML = length;
+
+
+
+
+cartData.forEach(function(ele){
+  let box=document.createElement('div')
+  box.style.display='flex'
+  let img=document.createElement('img');
+  img.src=ele.img_url;
+  img.setAttribute('class','cartimage')
+  let name=document.createElement('p');
+  name.setAttribute('class','cartname')
+  name.innerText=ele.name;
+ 
+  let price=document.createElement('p');
+  price.innerText=ele.price;
+  price.setAttribute('class','pricecart')
+ 
+
+  box.append(img,name,price)
+  document.querySelector('.headCart_emptyBox').append(box)
+})

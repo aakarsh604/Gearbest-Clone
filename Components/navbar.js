@@ -115,7 +115,7 @@ function navbar(){
    </li>
    </ul>
    <div class="headEntries">
-       <a href="https://www.gearbest.com" class="headLogo"> 
+       <a href="index.html" class="headLogo"> 
            <h1> <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true" alt="Gearbest"> </h1> 
        </a>
        <div class="headSearch">
@@ -167,7 +167,7 @@ function navbar(){
                            <div class="compDropdown-cont headCart_panel"> 
                                <div class="headCart_dataPanel" id="js-panelHeadCartList"> 
 
-                                 <div class="headCart_emptyBox">Your shopping cart is empty. Go shopping!</div>
+                                 <div class="headCart_emptyBox"></div>
               
                                </div> 
                             </div> 
