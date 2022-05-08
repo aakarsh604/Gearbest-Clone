@@ -141,13 +141,13 @@ function navbar(){
                    <div class="compDropdown-cont"> 
                        <div class="headUser_login"> 
                            <p class="headUser_loginLabel">Welcome to Gearbest</p> 
-                           <a href="https://login.gearbest.com/m-users-a-sign.htm?type=1" class="headUser_btnLogin" rel="nofollow">Sign In</a>
+                           <a href="login.html" class="headUser_btnLogin" rel="nofollow">Sign In</a>
                          <div class="headUser_socialLogin js-panelSocialLogin" style="display: block;"> 
                             <span class="headUser_socialLabel">or connect via</span> 
                            <img src="https://img.icons8.com/color/344/google-logo.png" class="google_image"/>
                          </div> 
                            <p class="headUser_loginLabel">Register on Gearbest: Earn 10 points</p>
-                           <a href="https://login.gearbest.com/m-users-a-register.htm?type=1" class="headUser_btnReg" rel="nofollow">Register</a>
+                           <a href="signup.html" class="headUser_btnReg" rel="nofollow">Register</a>
                        </div>
                    </div>
                 </div>
