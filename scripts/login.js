@@ -21,6 +21,7 @@ function loginchek() {
       {
         alert("Login Successful");
         window.location.href = "index.html";
+        
       } else {
           alert("Login Failed!");
       }

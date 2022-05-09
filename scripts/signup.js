@@ -37,7 +37,9 @@ function signup () {
               alert("Invalid Captcha!!");
               return;
           } else {
+              
               alert("Registration Successfull");
+              
           }
 
       obj = { email, pass1, pass2 };
