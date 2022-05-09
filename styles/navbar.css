@@ -553,6 +553,7 @@ em, i {
     color: #666;
     text-align: center;
 }
+
 .compDropdown .compDropdown-panel.compDropdown-panelLeft:after, .compDropdown .compDropdown-panel.compDropdown-panelLeft:before {
     left: auto;
     right: 20px;

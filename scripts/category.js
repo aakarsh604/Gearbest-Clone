@@ -907,7 +907,8 @@ let cartData = JSON.parse(localStorage.getItem("cart")) || [] ;
 
 cartData.forEach(function(ele){
     let box=document.createElement('div')
-    box.style.display='flex'
+    box.style.display='flex';
+    box.setAttribute("class", 'cartboxa');
     let img=document.createElement('img');
     img.src=ele.img_url;
     img.setAttribute('class','cartimage')
@@ -916,10 +917,9 @@ cartData.forEach(function(ele){
     name.innerText=ele.name;
    
     let price=document.createElement('p');
-    price.innerText=ele.price;
+    price.innerText=`₹${ele.price}`;
     price.setAttribute('class','pricecart')
    
-  
     box.append(img,name,price)
     document.querySelector('.headCart_emptyBox').append(box)
   })
