@@ -50,6 +50,9 @@ function addToCart() {
   let length = cartnum.length;
   document.querySelector(".js-cartNum").innerHTML = length;
   
+  window.location.reload()
+  window.location.href='cart.html'
+  
 }
 
 let cartnum = JSON.parse(localStorage.getItem("cart"));

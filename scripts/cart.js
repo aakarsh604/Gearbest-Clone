@@ -136,6 +136,7 @@ window.addEventListener("load",function (){
         cartData.splice(index,1);
         localStorage.setItem("cart",JSON.stringify(cartData));
         window.location.reload();
+      
         // displayData(cartData);
 
 

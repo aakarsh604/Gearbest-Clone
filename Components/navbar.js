@@ -142,6 +142,60 @@ function navbar(){
                        <div class="headUser_login"> 
                            <p class="headUser_loginLabel">Welcome to Gearbest</p> 
                            <a href="login.html" class="headUser_btnLogin" rel="nofollow">Sign In</a>
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           ``" rel="nofollow">Sign In</a>
                          <div class="headUser_socialLogin js-panelSocialLogin" style="display: block;"> 
                             <span class="headUser_socialLabel">or connect via</span> 
                            <img src="https://img.icons8.com/color/344/google-logo.png" class="google_image"/>
