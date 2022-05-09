@@ -231,7 +231,7 @@ p{
     left: 0;
     width: 60px;
     height: 60px;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .cartname{
@@ -256,3 +256,9 @@ p{
     font-size: 14px;
     margin-top: -60px;
 }
+
+.cartboxa{
+ height: 65px;
+ justify-content: flex-end;
+}
+
