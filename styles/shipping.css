@@ -1,0 +1,155 @@
+#top-sec {
+    width: 79%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 45px;
+    width: 200px;
+}
+
+#heading{
+    margin-left: 160px;
+}
+
+
+#Omain{
+    width: 78%;
+    margin: auto;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#Omain2{
+    padding-top: 100px;
+    width: 38%;
+}
+#Ob1{
+    /* border: 3px solid red; */
+    margin-top: -50px;
+    height: 120px;
+    border: none;
+}
+#Obu{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    margin-top: 40px;
+    width: 80%;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    border: none;
+}
+
+#Obu:hover {
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#details {
+    text-align: left;
+    /* border: 1px solid ; */
+    width: 500px;
+    margin-left: -100px;
+}
+
+#Osec{
+    display: flex;
+    height: 305px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#OSD{
+    width: 280px;
+    /* border: 1px solid red; */
+}
+
+#OSD > div {
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0px;
+}
+
+#But{
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: rgb(255, 128, 0);
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#But:hover {
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#ApplyC{
+margin-left: 100px;
+margin-top: 90px;
+margin-bottom: 100px;
+/* border: 3px solid red; */
+}
+
+#Osearch {
+    height: 26px;
+}
+
+#UseC{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+#SecU{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#SecU > input{
+    width: 300px;
+    padding: 5px;
+}
+
+#applybtn {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #ff8000;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#applybtn:hover {
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#coup , #subtotal {
+    font-weight: bold;
+}
+
+#Gtotal {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f30240;
+}

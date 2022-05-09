@@ -185,6 +185,10 @@ position: absolute;
 display: none;
 
 }
+
+.dropdown-consumer{
+    margin-left: 22px;
+}
 a{
 text-decoration: none;
 color: black;
@@ -241,13 +245,13 @@ gap: 5px;
 
 }
 
-#products,#products-cell>div{
+#products>div,#products-cell>div{
 width: 90%;
 cursor: pointer;
 padding-left: 20px;
 padding-right: 5px;
 }
-#products,#products-cell>div:hover{
+#products>div:hover,#products-cell>div:hover{
 box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
 span{
@@ -256,3 +260,5 @@ margin-left: 5px;
 #maindiv{
     margin-top: 60px;
 }
+
+

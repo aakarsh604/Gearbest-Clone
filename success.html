@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Payment Success Page</title>
+    <link rel="shortcut icon" href="https://img.ecommercedb.com/gearbest.com-75ioegxvb6cx.png" type="image/x-icon">
+<script
+src="https://kit.fontawesome.com/24c494a6b6.js"
+crossorigin="anonymous"
+></script> 
+<script src="party.min.js"></script>
     <style>
+
+        * {
+            font-family: "Open Sans", "sans-serif";
+        }
        #success-payment>img{
          width:100%;
          margin-top: 50px;
@@ -37,3 +47,15 @@
     <div id="backbtn"><a href="index.html">Go to Homepage</a></div>
 </body>
 </html>
+
+<script>
+
+    party.settings.debug = false;
+
+    document.body.addEventListener("click", function (e) {
+        e.preventDefault();
+        party.confetti(e);
+    })
+
+
+</script>

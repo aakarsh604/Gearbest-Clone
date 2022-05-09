@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gearbest/Payment page</title>
+    <link rel="shortcut icon" href="https://img.ecommercedb.com/gearbest.com-75ioegxvb6cx.png" type="image/x-icon">
+<script
+src="https://kit.fontawesome.com/24c494a6b6.js"
+crossorigin="anonymous"
+></script> 
+<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
 </head>
 <style>
 #box1{
@@ -14,18 +20,19 @@ width: 100%;
 box-shadow: 10px 5px 5px rgb(224, 216, 216);
 }
 #box2 >img{
-height: 60px;
-width: 50%;
+height: 70px;
+width: 60%;
 }
 #box3{
 display: flex;
 height: 590px;
 width: 100;
+margin-left: 100px;
 }
 #box4{
 height: 590px;
 width: 66%;
-border: 1px solid rgb(236, 231, 231);
+/* border: 1px solid rgb(236, 231, 231); */
 
 }
 /* #box5{
@@ -101,20 +108,39 @@ margin: 10px;
     border: 0px solid;
     box-shadow: 4px 4px 4px 4px rgb(241, 231, 231);
     font-weight: bold;
+    cursor: pointer;
+    
 }
 .hovering-div:hover{
     cursor: pointer;
 }
+
+#top-sec {
+    width: 79%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 45px;
+    width: 200px;
+}
+
 
 
 </style>
 
 
 <body>
-    <div id = "box1">
+    <!-- <div id = "box1">
         <div id = "box2">
             <img src = "https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true"/>
         </div>
+        </div> -->
+        <div id="top-sec">
+            <img id="logo" src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true" alt="logo">
         </div>
         <br>
         <div id = "box3">
@@ -252,7 +278,6 @@ margin: 10px;
                         <input id = "btn1" type = "submit" value = "PAY NOW"/>
                         </form>
                         <p style="margin-left: 20px;">Issue during payment? Call us at 1800-419-0066 </p>
-                    
                     </div>
                 </div>
 

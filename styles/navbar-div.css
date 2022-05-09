@@ -1,0 +1,61 @@
+#navbar-div{
+    width:100%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+#section-div{
+    width:78%;
+    padding: 10px;
+    white-space: nowrap;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 10px;
+} 
+#section-div>div:nth-child(1){
+ position: relative;
+ display: inline-block;
+ color: #000;
+ font-weight: 700;
+ font-family: OpenSans,Arial,Helvetica,sans-serif;
+}
+#section-div>div:nth-child(2){
+ position: relative;
+ display: inline-block;
+ margin-left: -10px;
+ font-weight: 700;
+ font-family: OpenSans,Arial,Helvetica,sans-serif;
+ height:20px;
+ border-right: 1px solid lightgray;
+}
+#section-div>div:nth-child(3){
+ position: relative;
+ display: inline-block;
+ color: #000;
+ font-weight: 700;
+ font-family: OpenSans,Arial,Helvetica,sans-serif;
+}
+#section-div>div:nth-child(4){
+ position: relative;
+ display: inline-block;
+ color: #000;
+ font-weight: 700;
+ font-family: OpenSans,Arial,Helvetica,sans-serif;
+}
+#section-div>div:nth-child(5){
+ position: relative;
+ display: inline-block;
+ color: #000;
+ font-weight: 700;
+ font-family: OpenSans,Arial,Helvetica,sans-serif;
+}
+#section-div>div:nth-child(6){
+ position: relative;
+ display: inline-block;
+ color: #000;
+ font-weight: 700;
+ font-family: OpenSans,Arial,Helvetica,sans-serif;
+}
+#section-div>div:hover{
+   border-bottom: 5px solid #ffda00; ; 
+}

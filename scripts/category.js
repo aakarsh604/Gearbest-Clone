@@ -518,6 +518,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16454/goods_img-v1/42405dc55cb8.jpg",
         name:"OUKITEL WP15 5G Global Bands 15600mAh Battery Dimensity",
         price: 11295.00,
+        qprice: 11295.00,
         act_price: 15305.00,
     },
 
@@ -525,6 +526,7 @@ var ProductData = [
         img_url: "https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16421/goods_img-v4/a0da751fd8f8.jpg",
         name: "Original Xiaomi Redmi Airdots 2 TWS Fone Bluetooth Earphon",
         price: 798.00,
+        qprice: 798.00,
         act_price: 1229.00,
     },
 
@@ -532,6 +534,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16416/goods_img-v1/5e4723996cff.jpg",
         name:"Xiaomi Mi Water Immersing Sensor Smart Wireless Water",
         price:999.00,
+        qprice: 999.00,
         act_price:1299.00,
     },
 
@@ -539,6 +542,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16499/goods_img-v5/6233d35f6f8a.jpg",
         name:"Global Version MI 11 Ultra 6.3 inch Smartphone 12Gb Cell",
         price:19992.00,
+        qprice: 19992.00,
         act_price:23099.00,
     },
 
@@ -546,6 +550,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878030535709618176/16492/goods_img-v1/bb1748b1d9f2.jpg",
         name:"A9 Mini WiFi Video Surveillance 1080p HD Infrared Night Vision",
         price:2000.00,
+        qprice: 2000.00,
         act_price:2500.00,
     },
 
@@ -553,6 +558,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16414/goods_img-v1/5f26bc001550.jpg",
         name:"Original Xiaomi Redmi Buds 3 Lite Youth Edition Earphone",
         price:1505.00,
+        qprice: 1505.00,
         act_price:2009.00,
     },
 
@@ -560,6 +566,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16433/goods_img-v1/0b0ff330204b.jpg",
         name:"BMAX MaxPad I11 UNISOC T618 Octa Core 8GB RAM 128GB",
         price:13073.00,
+        qprice: 13073.00,
         act_price:17083.00,
     },
 
@@ -567,6 +574,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/store/6878025592978206720/16420/goods_img-v3/d5477f83e8f5.jpg",
         name:"360 Rotating Flying Ball Globe Shape Magic Controller",
         price:2171.00,
+        qprice: 2171.00,
         act_price:3028.00,
     },
 
@@ -574,6 +582,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/store/6878399324569661440/16425/goods_img-v3/7a007e142207.jpg",
         name:"Tronxy X5SA-600 Large 3D Printer Direct Drive 3D Printer",
         price:8200.00,
+        qprice: 8200.00,
         act_price:11000.00,
     },
 
@@ -581,6 +590,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/store/6900783172733300736/16468/goods_img-v1/e483ba511256.jpg",
         name:"Global Version Xiaomi Redmi Note 10 5G Smartphone ",
         price:12092.00,
+        qprice: 12092.00,
         act_price:16230.00,
     },
 
@@ -588,6 +598,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6898341271098814464/16469/goods_img-v1/126354806df6.jpg",
         name:"Xiaomi PEN Mijia Super Durable Sign Pen 0.5mm MI Pen",
         price:200.00,
+        qprice: 200.00,
         act_price:250.00,
     },
 
@@ -595,6 +606,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6900746726869757952/16492/goods_img-v3/6d537d29b48f.jpg",
         name:"Original Global Version Xiaomi RedmiBook Pro 15 Laptop",
         price:17919.00,
+        qprice: 17919.00,
         act_price:21219.00,
     },
 
@@ -602,6 +614,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16456/goods_img-v1/5ef9d5b1a9a0.jpg",
         name:"Ulefone Power Armor 13 Global Version 13200mAh Battery 8G",
         price:11319.00,
+        qprice: 11319.00,
         act_price:13419.00,
     },
 
@@ -609,6 +622,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6900746726869757952/16496/goods_img-v5/64df3bb8819d.jpg",
         name:"Original Xiaomi Smart Weight Scale 2 Health Weighting Scale",
         price:3331.00,
+        qprice: 3331.00,
         act_price:4440.00,
     },
 
@@ -616,6 +630,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6899301501118902272/16463/goods_img-v4/ad2a20a94177.jpg",
         name:"ASLING Luminous Series One-Cable Three Purpose USB",
         price:300.00,
+        qprice: 300.00,
         act_price:450.00,
     },
 
@@ -623,6 +638,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6896502277952172032/16460/goods_img-v1/524849cb314c.jpg",
         name:"US/EU Stock ENGWE Bike C20 20inch Adult Electric Bike",
         price:7800.00,
+        qprice: 7800.00,
         act_price:11100.00,
     },
 
@@ -630,6 +646,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878024886355423232/16417/goods_img-v1/0b74ebf9ee1a.jpg",
         name:"T88 Smart Watch Body Temperature Monitoring ",
         price:169.00,
+        qprice: 169.00,
         act_price:282.00,
     },
 
@@ -637,6 +654,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6882688590640508928/16448/goods_img-v3/6f9c892c7ec6.jpg",
         name:"5in1 CO2 Meter Digital Temperature Humidity Tester",
         price:729.00,
+        qprice: 729.00,
         act_price:999.00,
     },
 
@@ -644,6 +662,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16409/goods_img-v1/5b7959d3089f.jpg",
         name:"Flashlight Strong Light Rechargeable Zoom ",
         price:600.00,
+        qprice:600.00,
         act_price:1200.00,
     },
 
@@ -651,6 +670,7 @@ var ProductData = [
          img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16423/goods_img-v1/2f9b88a31113.jpg",
          name:"Xiaomi Aqara Door Window Sensor Zigbee Wireless",
          price:1989.00,
+         qprice: 1989.00,
          act_price:2065.00,
     },
 
@@ -658,6 +678,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6900746726869757952/16492/goods_img-v3/e0b65bad2e24.jpg",
         name:"Original Global Newest Xiaomi Redmibook Pro 15",
         price:11586.00,
+        qprice:11586.00,
         act_price:15786.00,
     },
 
@@ -665,6 +686,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878025592978206720/16498/goods_img-v5/eca3dcc2ab20.jpg",
         name:"L900 PRO 5G WIFI FPV Foldable GPS RC Drone Quadcopter",
         price:4093.00,
+        qprice: 4093.00,
         act_price:5899.00,
     },
 
@@ -672,6 +694,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878028664286670848/16455/goods_img-v2/00f85739bfeb.jpg",
         name:"10 PCS Watch Strap Button Compass Mini Portable",
         price:560.00,
+        qprice: 560.00,
         act_price:899.00,
     },
 
@@ -679,6 +702,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16427/goods_img-v1/1993a3019ba8.jpg",
         name:"Roborock S7 Robot Vacuum Cleaner for Home ",
         price:23735.00,
+        qprice: 23735.00,
         act_price:33835.00,
     },
 
@@ -686,6 +710,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16475/goods_img-v1/974197f8bb55.jpg",
         name:"LONGER RAY5 Laser Engraver 3.5inch Touch Screen",
         price:14329.00,
+        qprice: 14329.00,
         act_price:18429.00,
     },
 
@@ -693,6 +718,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_img-v1/76cb26d2019a.jpg",
         name:"USLION Magnetic USB Cable For iPhone 12 11 Xiaomi ",
         price:100.00,
+        qprice: 100.00,
         act_price:180.00,
     },
 
@@ -700,6 +726,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6895742097949913088/16457/goods_img-v5/7f4d41d4fc19.jpg",
         name:"Artillery Sidewinder SW-X2 3D Printer Ultra-Quiet Printing",
         price:10389.00,
+        qprice: 10389.00,
         act_price:12449.00,
     },
 
@@ -707,6 +734,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16152/goods_img-v2/78e3dccea62c.jpg",
         name:"Lenovo LP1S TWS Bluetooth Earphone Sports Wireless",
         price:918.00,
+        qprice: 918.00,
         act_price:1722.00,
     },
 
@@ -714,13 +742,15 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6866331803104505856/16406/goods_img-v1/c54120f58bbb.jpg",
         name:"New Arrival 4G LTE Tablets 10.1 Inch Android 9.0 Octa Core",
         price:18244.00,
-        act_price:15294.00,
+        qprice: 18244.00,
+        act_price:19294.00,
     },
 
     {
         img_url:"https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16506/goods_img-v3/a7b29b46af04.jpg",
         name:"New Style 21V 16.8V 12V Electric Cordless Screwdriver",
         price:1869.00,
+        qprice: 1869.00,
         act_price:3089.00,
     },
 
@@ -728,6 +758,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16063/goods_img-v1/bcaeeba97bab.jpg",
         name:"Mite Removal Instrument Home Bed Vacuum Cleaner",
         price:3056.00,
+        qprice: 3056.00,
         act_price:4393.00,
     },
 
@@ -735,6 +766,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15933/goods_img-v1/23b0e0b06657.jpg",
         name:"1080P WIFI IP PTZ 2MP Camera Dome ONVIF Outdoor",
         price:8041.00,
+        qprice: 8041.00,
         act_price:12052.00,
     },
 
@@ -742,6 +774,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16514/goods_img-v8/286a149e4bd4.jpg",
         name:"XiaoMi Mijia Men Sport Shoes Sneakers Sneaker 4 4th Men",
         price:1404.00,
+        qprice: 1404.00,
         act_price:1758.00,
     },
     
@@ -749,6 +782,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16424/goods_img-v5/d92c3c85c4b5.jpg",
         name:"CPU Processor Circuit Diagram T Shirt Men Summer Cotton",
         price:999.00,
+        qprice: 999.00,
         act_price:1400.00,
     },
     
@@ -756,6 +790,7 @@ var ProductData = [
         img_url:"https://gloimg.gbtcdn.com/soa/gb/store/6911257965974712320/16499/goods_img-v1/4dfde4a08af6.jpg",
         name:"Electric Kettle Temperature Control Stainless Steel",
         price:1109.00,
+        qprice: 1109.00,
         act_price:1329.00,
     }
 
@@ -771,6 +806,9 @@ function displayData(ProductData){
     document.querySelector("#java_container").innerText ="";
     ProductData.map(function (e){
         var div = document.createElement("div");
+        div.addEventListener("click", function() {
+            sendData(e);
+        })
 
         var img = document.createElement("img");
         img.src = e.img_url;
@@ -786,22 +824,43 @@ function displayData(ProductData){
 
         var span = document.createElement("span");
         span.setAttribute("class", "span1")
-
+        
         var mark = document.createElement("del");
         mark.innerText = "₹" + e.act_price;
         span.append(mark);
         p2.append(span);
 
+        var p9 = document.createElement("p");
+        p9.innerText = "₹" + e.qprice;
+
         var p3 = document.createElement("p");
         p3.setAttribute("class", "para3")
         p3.innerText = "You Save ₹" + [e.act_price - e.price] + " [" + Math.round(100 - (e.price / e.act_price) *100) + "%" + " off]"
 
+        // var btn=document.createElement("button");
+        // btn.innerText="Add to Card";
+        // btn.addEventListener("click", function () {
+        // addToCart(e);
+        // });
+
+
         div.append(img, p1, p2, p3);
         // div.append(div1)
         document.querySelector("#java_container").append(div);
+
+
     });
 }
 
+
+function addToCart(e){
+    var cartData=JSON.parse(localStorage.getItem("cart"))||[];
+    console.log(cartData);
+    cartData.push(e);
+    localStorage.setItem("cart",JSON.stringify(cartData));
+    alert("item added into the cart");
+    
+    }
 
 // footer js........>>>>>
 
@@ -811,3 +870,56 @@ function subscribe(){
 alert("you have subscribed");
 window.location.href="index.html";
 }
+
+
+function sendData(e) {
+    // console.log(e)
+    localStorage.setItem("proInfo", JSON.stringify(e));
+    window.location.href = "proDetails.html";
+}
+
+let cartnum = JSON.parse(localStorage.getItem("cart"));
+let length = cartnum.length;
+
+document.querySelector(".js-cartNum").innerHTML = length;
+
+
+
+document.getElementById('search_icon').addEventListener('click',searchResult)
+
+
+//Search Results//
+function searchResult(){
+let search=document.getElementById('search').value;
+if(search=='product'){
+    window.location.href='consumer.html'
+}
+if(search=='headphones'){
+    window.location.href='headphones.html'
+}
+}
+
+
+
+//CartIcon
+
+let cartData = JSON.parse(localStorage.getItem("cart")) || [] ;
+
+cartData.forEach(function(ele){
+    let box=document.createElement('div')
+    box.style.display='flex'
+    let img=document.createElement('img');
+    img.src=ele.img_url;
+    img.setAttribute('class','cartimage')
+    let name=document.createElement('p');
+    name.setAttribute('class','cartname')
+    name.innerText=ele.name;
+   
+    let price=document.createElement('p');
+    price.innerText=ele.price;
+    price.setAttribute('class','pricecart')
+   
+  
+    box.append(img,name,price)
+    document.querySelector('.headCart_emptyBox').append(box)
+  })
