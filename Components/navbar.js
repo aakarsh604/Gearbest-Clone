@@ -206,7 +206,7 @@ function navbar(){
                    </div>
                 </div>
             </div> 
-            <a href="https://user.gearbest.com/index#/favor/goods" class="headEntries_item headCollect" rel="nofollow"> 
+            <a href="login.html" class="headEntries_item headCollect" rel="nofollow"> 
                 <span class="headEntries_icon headEntries_iconFav"></span> 
                 <span>Favorites</span> 
                 <em data-type="1" class="headEntries_itemBadge js-collectNum">0</em> 
@@ -233,6 +233,4 @@ function navbar(){
   
 </div> `
 }
-
-
 export {navbar};

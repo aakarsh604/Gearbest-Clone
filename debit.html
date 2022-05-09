@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gearbest/Payment page</title>
-    <link rel="shortcut icon" href="https://img.ecommercedb.com/gearbest.com-75ioegxvb6cx.png" type="image/x-icon">
-<script
-src="https://kit.fontawesome.com/24c494a6b6.js"
-crossorigin="anonymous"
-></script> 
-<script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    <title>Document</title>
 </head>
 <style>
 #box1{
@@ -20,19 +14,18 @@ width: 100%;
 box-shadow: 10px 5px 5px rgb(224, 216, 216);
 }
 #box2 >img{
-height: 70px;
-width: 60%;
+height: 60px;
+width: 50%;
 }
 #box3{
 display: flex;
 height: 590px;
 width: 100;
-margin-left: 100px;
 }
 #box4{
 height: 590px;
 width: 66%;
-/* border: 1px solid rgb(236, 231, 231); */
+border: 1px solid rgb(236, 231, 231);
 
 }
 /* #box5{
@@ -104,43 +97,23 @@ margin: 10px;
     width: 90%; 
     padding: 20px 30px 20px 30px;
     color: black;
-    background-color: #ffda00;
+    font-weight: bold;
+    background-color: #ffda00;;
     border: 0px solid;
     box-shadow: 4px 4px 4px 4px rgb(241, 231, 231);
-    font-weight: bold;
-    cursor: pointer;
-    
 }
-.hovering-div:hover{
-    cursor: pointer;
+#btn1:hover{
+cursor:pointer;
 }
-
-#top-sec {
-    width: 79%;
-    height: 70px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
-#logo {
-    height: 45px;
-    width: 200px;
-}
-
-
 
 </style>
 
 
 <body>
-    <!-- <div id = "box1">
+    <div id = "box1">
         <div id = "box2">
             <img src = "https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true"/>
         </div>
-        </div> -->
-        <div id="top-sec">
-            <img id="logo" src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true" alt="logo">
         </div>
         <br>
         <div id = "box3">
@@ -149,16 +122,16 @@ margin: 10px;
                 <div>
                     <div id = "box6">
                         <div>
-                            <button id = "btn2" class="hovering-div">Credit card</button>
+                            <button id = "btn2">Credit card</button>
                         </div>
                         <div> 
-                            <button id = "btn3" class="hovering-div">Debit Card</button>
+                            <button id = "btn3">Debit Card</button>
                         </div>
                         <div>
-                            <button id = "btn4" class="hovering-div">Netbanking</button>
+                            <button id = "btn4">Netbanking</button>
                         </div>
                         <div>
-                            <button id = "btn5" class="hovering-div">Cash On Delivery</button>
+                            <button id = "btn5">Cash On Delivery</button>
                         </div>
                     </div>
                     <div id = "box7">
@@ -278,6 +251,7 @@ margin: 10px;
                         <input id = "btn1" type = "submit" value = "PAY NOW"/>
                         </form>
                         <p style="margin-left: 20px;">Issue during payment? Call us at 1800-419-0066 </p>
+                    
                     </div>
                 </div>
 
@@ -326,7 +300,7 @@ var num = +(cardno);
     if((cardno >= 1000000000000000 && cardno <= 9999999999999999)){
     if(cvv >=100 && cvv <=999){
         if(year !== "Expiry Year" ){
-            window.location.href= "success.html";
+            window.location.href= "refresh.html";
         }
 
     }
@@ -338,11 +312,6 @@ else{
     alert("Please Enter the right values of all inputs");
 }
 }
-
-
-
-
-
 </script>
 
 
