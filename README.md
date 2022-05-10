@@ -34,7 +34,7 @@ Gearbest, as a strategic brand product of the renowned Chinese cross-border ente
 
 [![portfolio](https://img.shields.io/badge/bharathaladandi-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/bharathaladandi)
 
-[![portfolio](https://img.shields.io/badge/Vishal Chaubey-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/vis976)
+[![portfolio](https://img.shields.io/badge/Vishal-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/vis976)
 
 
 
